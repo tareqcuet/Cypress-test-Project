@@ -1,0 +1,23 @@
+{
+
+  "HomeUrl": "https://automationteststore.com/",
+  "firstName" : "Mustafijur",
+  "lastName" : "Rahman",
+  "email" : "testtareq0005@gmail.com",
+  "telephone" : "01975526604",
+  "fax" : "12345678",
+
+
+  "company" : "BJIT Ltd",
+  "address1" : "Baridhara, Dhaka 1212",
+  "address2" : "Gulshan 2, Dhaka 1213",
+  "city" : "Dhaka City",
+  "region" : "Dhaka",
+  "zipCode" : "1212",
+  "country" : "Bangladesh",
+
+  
+  "loginName" : "testtareq0005",
+  "password" : "P12345678",
+  "confirmPassword" : "P12345678"
+}

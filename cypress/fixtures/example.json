@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://eshop.banglalink.net",
+  
+
+
+
+  "validMobileNo": "01675526601",
+  "validPassword": "P01675526601",
+  "invalidPassword": "P016755266010",
+  "homePageUrl": "https://eshop.banglalink.net"
+}
