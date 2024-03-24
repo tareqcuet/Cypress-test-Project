@@ -3,8 +3,11 @@ class AutomationUhomePage
     homeNavigation = '.logo > img'
     loginOrRegisterCTAatTopBanner = '#customer_menu_top > li > a'
     welcomeNoteForLoggedInUser = '#customer_menu_top > :nth-child(1) > .top > .menu_text'
+    //cart ico on top nav
+    cartIcon = '#customer_menu_top > :nth-child(1) > .top > .menu_text'
 
-    //profileIconForLoggedInUser = 
+
+  // Product add to cart icon
     addToCartIconForFeaturedProduct = '#block_frame_featured_1769 > .thumbnails > :nth-child(1) > .thumbnail > .pricetag > .productcart > .fa'
     addToCartIconForLatestProduct = '#block_frame_latest_1770 > .thumbnails > :nth-child(1) > .thumbnail > .pricetag > .productcart > .fa'
     addToCartIconForBestSellersProduct = '#block_frame_bestsellers_1771 > .thumbnails > :nth-child(1) > .thumbnail > .pricetag > .productcart > .fa'
@@ -20,6 +23,10 @@ class AutomationUhomePage
         cy.get(this.welcomeNoteForLoggedInUser).click();
     }
 
+    navigateToCart()
+    {
+        cy.get(this.homeNavigation).click();
+    }
 
     clickOnLoginOrRegisterCTAatTopBanner()
     {
